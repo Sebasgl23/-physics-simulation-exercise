@@ -113,13 +113,13 @@ const actualizarTabla = async( masaTabla, masaBloque1, masaBloque2, masaBloque3,
   const columna8 = document.createElement("td");
 
   columna1.innerHTML = caso;
-  columna2.innerHTML = masaTabla;
-  columna3.innerHTML = masaBloque1;
-  columna4.innerHTML = masaBloque2;
-  columna5.innerHTML = masaBloque3;
-  columna6.innerHTML = masaBloque4;
-  columna7.innerHTML = pivoteDerechoValor;
-  columna8.innerHTML = pivoteIzquierdoValor;
+  columna2.innerHTML = masaTabla + ' kg';
+  columna3.innerHTML = masaBloque1 + ' kg';
+  columna4.innerHTML = masaBloque2 + ' kg';
+  columna5.innerHTML = masaBloque3 + ' kg';
+  columna6.innerHTML = masaBloque4 + ' kg';
+  columna7.innerHTML = pivoteDerechoValor + ' N';
+  columna8.innerHTML = pivoteIzquierdoValor + ' N';
 
   fila.appendChild(columna1);
   fila.appendChild(columna2);
